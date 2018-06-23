@@ -30,7 +30,7 @@ I said things in the past that one should be aware of:
 - (c) the list is not the core element but it starts with a Computer Performance Tracker, 
   since the list is and will become resource hungry 
   [expect running more than one list with a pair of ClangOpenSourceLib] 
-  – informing the user and error control to stop loading; 
+  [informing the user and error control to stop loading];
   
   - (d) Order Execution is a priority as a process -- not the data plotting module 
  [TCP/IP low latency datafeed-splitter]; 
