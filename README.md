@@ -25,20 +25,20 @@ not necessary attached to live-trading/[day trading].  When tailoring charts the
 should not impair live trading and my recommendation is to use another machine for performance reason.
 
 I said things in the past that one should be aware of: 
-  (a) The AHRSYS is market performance scanner; 
-  (b) The code is modular; 
-  (c) the list is not the core element but it starts with a Computer Performance Tracker, 
+- (a) The AHRSYS is market performance scanner; 
+- (b) The code is modular; 
+- (c) the list is not the core element but it starts with a Computer Performance Tracker, 
   since the list is and will become resource hungry 
   [expect running more than one list with a pair of ClangOpenSourceLib] 
   – informing the user and error control to stop loading; 
   
-  (d) Order Execution is a priority as a process -- not the data plotting module 
+  - (d) Order Execution is a priority as a process -- not the data plotting module 
  [TCP/IP low latency datafeed-splitter]; 
  
-  (e) only for commercial reasons we will need to attach “the tailoring shop”; 
-  (f) portable to reach OSX, (hum windows) and Unix like OS/s; 
-  (g) time is a factor and how soon we can trade with is up to you; 
- (h) options for chartLIB and OFdriver to use other programming languages 
+ - (e) only for commercial reasons we will need to attach “the tailoring shop”; 
+ - (f) portable to reach OSX, (hum windows) and Unix like OS/s; 
+ - (g) time is a factor and how soon we can trade with is up to you; 
+ - (h) options for chartLIB and OFdriver to use other programming languages 
  to interpolate with AHRSYS should be kept in prospective.
  
 The new jargons on the market such as A.I., automated trading, algos, viros, neural, 
