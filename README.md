@@ -1,55 +1,28 @@
-# AHRSYS
-trading platform
+Enhanced Absorption of AHRSYS Concept
 
-AHRSYS is GUI or UI that pertains to a list [compiled by user] of traded symbols or symbols that require 
-further analytics and fine-tuning. AHR calls this list the Opportunity Finder (OF). 
-However, such list can be associated with a portfolio management[i] and/or 
-performing analytical studies on particular financial instruments (symbols). 
+AHRSYS represents a dynamic trading platform with a user-friendly interface tailored to cater to a personalized list of traded symbols or those requiring detailed analysis and refinement. This catalog, referred to as the Opportunity Finder (OF), serves as a pivotal tool for portfolio management and in-depth examination of specific financial instruments.
 
-https://www.patreon.com/posts/ahrsys-branded-19530791
+In exploring the potential collaboration between AHRSYS and ClangOpenSourceLib, the aim is to harness the latter as the primary charting engine. This collaboration emphasizes the importance of optimizing internal processes for minimal latency. Conceptually, this collaboration can be divided into two distinct modules: order execution and data plotting (charting). To ensure optimal performance, it's envisioned to have two separate instances of ClangOpenSourceLib running—one to drive the symbol list and another to handle charting.
 
-... 
-[generic? to stir the interest in open source, genetic is to get it done] regarding AHRSYS and how ClangOpenSourceLib can 
-become the main charting engine. 
+The customization of data analytics through a "chart design manager" serves as a supplementary tool, separate from live trading or day trading activities. To avoid any impact on live trading, it's advisable to utilize a separate machine for chart tailoring purposes.
 
-The focus is low latency internals and I could vision [in principle] two distinct modules, 
-- the order execution and 
-- data plotting (charting). 
+Key considerations underscored previously include:
 
-I also see for low latency reasons considering two session of ClangOpenSourceLib running, 
-- one that drives the list, 
-- the other that drives the chartLib.
+AHRSYS primarily functions as a market performance scanner.
+The platform is designed with modularity in mind.
+Resource efficiency is crucial, particularly with the potential resource demands of the symbol list.
+Order execution takes precedence over the data plotting module.
+The inclusion of a "tailoring shop" is primarily for commercial purposes.
+Compatibility across different operating systems, including OSX, Windows, and Unix-like systems, is essential.
+Time efficiency is paramount in facilitating swift trading.
+Flexibility in incorporating other programming languages for the charting engine and symbol list driver should be explored.
+While industry buzzwords like A.I., automated trading, algorithms, viruses, neural networks, and machine learning are relevant, the focus remains on custom programming to meet specific needs.
 
-Data tailoring of analytics or better said “the chart design manager” is an auxiliary tool, 
-not necessary attached to live-trading/[day trading].  When tailoring charts the task 
-should not impair live trading and my recommendation is to use another machine for performance reason.
+In contrast to many branded platforms, AHRSYS aims to offer a unique trading experience with customizable features. The suggestion of a donation option reflects a desire to enhance the platform further, albeit within limited means.
 
-I said things in the past that one should be aware of: 
-- (a) The AHRSYS is market performance scanner; 
-- (b) The code is modular; 
-- (c) the list is not the core element but it starts with a Computer Performance Tracker, 
-  since the list is and will become resource hungry 
-  [expect running more than one list with a pair of ClangOpenSourceLib] 
-  [informing the user and error control to stop loading];
-  
-  - (d) Order Execution is a priority as a process -- not the data plotting module 
- [TCP/IP low latency datafeed-splitter]; 
- 
- - (e) only for commercial reasons we will need to attach “the tailoring shop”; 
- - (f) portable to reach OSX, (hum windows) and Unix like OS/s; 
- - (g) time is a factor and how soon we can trade with is up to you; 
- - (h) options for chartLIB and OFdriver to use other programming languages 
- to interpolate with AHRSYS should be kept in prospective.
- 
-The new jargons on the market such as A.I., automated trading, algos, viros, neural, 
-machine learning, etc., not the point but to expect occurring in custom programming. 
+AHRSYS and ClangOpenSourceLib present a promising synergy, inviting users to contribute to their development and adoption. However, the current capacity for contribution is constrained, underscoring the potential for growth and enhancement in the future.
 
-As far as I am concerned, most if not all branded platforms offer a tailoring shop. 
-They might get inspired to expressions used [I know sarcasm], as such 
-“what do you know, I may even trade today”.
+AHR
+June 23, 2018
+https://sananton.substack.com/p/c1db196f-2258-481a-9af1-3bf3092f8bd1
 
--AHRSYS and ClangOpenSourceLib --also suggest a donation that I can afford. 
-I would like to trade with such system to further contribute but as it is, I am limited.
-
-
-AHR 20180623 @news_ahr 
